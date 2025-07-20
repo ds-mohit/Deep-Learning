@@ -1,0 +1,32 @@
+# # Byte-compiled / optimized / DLL files
+# __pycache__/
+# *.pyc
+# *.pyo
+# *.pyd
+# *.dll
+# *.lib
+# *.exe
+
+# # Large Datasets & Archives
+# *.csv
+# *.gz
+# *.sqlite
+# *.zip
+# *.tgz
+# flower_photos_archive
+
+# # Trained Models
+# *.keras
+
+# # Environment & Editor folders
+# .venv
+# venv/
+# .env
+# .vscode/
+
+# # Installers and setup files
+# GoogleDriveSetup.exe
+
+# Ignore specific project folders
+ASL_YOLO/
+faceRecognition/
