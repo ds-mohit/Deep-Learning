@@ -16,27 +16,6 @@ ENV/
 *.env
 .env.*
 
-# === Ignore model/data/log files ===
-*.h5
-*.hdf5
-*.ckpt
-*.pth
-*.pt
-*.tflite
-*.onnx
-*.log
-*.csv
-*.zip
-*.tar.gz
-
-# === Ignore image and video files ===
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.mp4
-*.avi
-
 # === Ignore VS Code settings ===
 .vscode/
 
@@ -44,7 +23,30 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# === Ignore model weights and checkpoints ===
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.h5
+*.hdf5
+
+# === Ignore large compressed logs and archives ===
+*.log
+*.tar.gz
+
+# === Ignore ONLY zip files in specific folders (optional) ===
+# ! You can adjust this based on your need
+# e.g., ignore zip files in ASL_YOLO or FaceRecognition only
+
 # === Project-specific exclusions ===
 /ASL_YOLO/
 /FaceRecognition/
+
+# === Allow specific folders/files if needed ===
+!theory/
+!Mnist(number)/
+!projectX/
+
 
