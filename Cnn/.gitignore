@@ -1,32 +1,50 @@
-# # Byte-compiled / optimized / DLL files
-# __pycache__/
-# *.pyc
-# *.pyo
-# *.pyd
-# *.dll
-# *.lib
-# *.exe
+# === Ignore Python cache ===
+__pycache__/
+*.py[cod]
+*.pyo
 
-# # Large Datasets & Archives
-# *.csv
-# *.gz
-# *.sqlite
-# *.zip
-# *.tgz
-# flower_photos_archive
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
 
-# # Trained Models
-# *.keras
+# === Ignore virtual environment folders ===
+venv/
+env/
+ENV/
+.venv/
 
-# # Environment & Editor folders
-# .venv
-# venv/
-# .env
-# .vscode/
+# === Ignore environment files ===
+*.env
+.env.*
 
-# # Installers and setup files
-# GoogleDriveSetup.exe
+# === Ignore model/data/log files ===
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.log
+*.csv
+*.zip
+*.tar.gz
 
-# Ignore specific project folders
-ASL_YOLO/
-faceRecognition/
+# === Ignore image and video files ===
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+
+# === Ignore VS Code settings ===
+.vscode/
+
+# === Ignore system files ===
+.DS_Store
+Thumbs.db
+
+# === Project-specific exclusions ===
+/ASL_YOLO/
+/FaceRecognition/
+
